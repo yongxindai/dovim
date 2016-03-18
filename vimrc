@@ -28,6 +28,8 @@ Plugin 'scrooloose/nerdTree'
 
 Plugin 'snipMate' 
 
+Plugin 'flazz/vim-colorschemes'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -44,12 +46,13 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 set wildignore+=*.o,*.obj,**/.git/*,**/.svn/*,**/node_modules/**,node_modules/**,.git/*,svn/*
 
-let g:CommandTMaxFiles=100000
-let g:CommandTMaxDepth=40
-let g:CommandTTraverseSCM = 'pwd'
+let g:CommandTMaxFiles=600000
+let g:CommandTMaxDepth=20
+let g:CommandTTraverseSCM='pwd'
 let g:NERDTreeDirArrows=0
 " let g:ctrlp_max_files=0
 " let g:ctrlp_max_depth=40
-:set mouse=a
+" set autochdir
+set mouse=a
 "Workaround for NERDTree
-:set encoding=utf-8 
+set encoding=utf-8
