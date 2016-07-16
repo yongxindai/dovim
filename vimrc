@@ -53,6 +53,6 @@ let g:NERDTreeDirArrows=0
 " let g:ctrlp_max_files=0
 " let g:ctrlp_max_depth=40
 " set autochdir
-set mouse=a
+" set mouse=a
 "Workaround for NERDTree
 set encoding=utf-8
